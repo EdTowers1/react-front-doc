@@ -22,7 +22,7 @@ function Users() {
             
             <ul>
                 {users.map(user => (
-                    <li key={user.id}>{user.username}</li>
+                    <li key={user.id}>{user.email}</li>
                 ))}
             </ul>
         </div>
