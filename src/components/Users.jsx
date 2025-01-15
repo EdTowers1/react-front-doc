@@ -6,7 +6,7 @@ function Users() {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        api.get('/users')
+        api.get('/administracion/users')
             .then(response => {
                 console.log(response.data);
                 setUsers(response.data);
